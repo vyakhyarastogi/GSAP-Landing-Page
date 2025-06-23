@@ -1,20 +1,28 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍸 Cocktail Landing Page – React + GSAP
 
-Currently, two official plugins are available:
+An eye-catching **Cocktail Landing Page** built using **React** and **GSAP**. This project focuses on delivering a visually appealing experience using smooth animations, crafted to grab attention and showcase frontend animation skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Features
+- Built with React for component-based structure
+- GSAP animations for smooth transitions and scroll effects
+- Fully responsive design
+- Modular and scalable code
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+- React.js
+- GSAP (GreenSock Animation Platform)
+- TailwindCSS to Styled Components
+- Vite 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# GSAP-Landing-Page
->>>>>>> 5e1aa8653caafcd58ca9dfbb70efb5c25f5a17cb
-=======
-# GSAP-Landing-Page
->>>>>>> 5e1aa8653caafcd58ca9dfbb70efb5c25f5a17cb
+## 🔗 Live Demo
+[👉 https://gsap-landing-page-teal.vercel.app/] 
+
+## 🧠 What I Learned
+- Integrating GSAP with React components
+- Handling animations on mount and scroll
+- Creating a responsive and animated UI with component reusability
+
+## 📂 GitHub Repo
+Feel free to fork or star ⭐ this repo if you like it!  
+[https://github.com/vyakhyarastogi/GSAP-Landing-Page]
