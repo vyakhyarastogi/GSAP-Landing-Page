@@ -8,7 +8,7 @@ import { useMediaQuery } from "react-responsive";
 const Hero = () => {
     const videoRef = useRef();
 
-    const isMobile = useMediaQuery({ maxWidth: 767 });
+    const isMobile = useMediaQuery({ maxWidth: 700 });
     useGSAP(() => {
         const heroSplit = new SplitText('.title', { type: 'chars, words' });
 
@@ -45,7 +45,7 @@ const Hero = () => {
         }).to('.right-leaf', { y: 200 }, 0)
             .to('.left-leaf', { y: -200 }, 0);
 
-        const startValue = isMobile ? 'top 50%' : 'center 60%';
+        const startValue = isMobile ? 'top 30%' : 'center 60%';
         const endValue = isMobile ? '120% top' : 'bottom top';
 
         // video animation timeline
@@ -97,7 +97,7 @@ const Hero = () => {
                 </div>
             </section>
 
-            <div className="video absolute inset-8">
+            <div className="video absolute inset-0">
                 <video ref={videoRef} src="/videos/output.mp4" muted playsInline
                     preload="auto"
                     loop>
